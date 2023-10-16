@@ -81,7 +81,6 @@ function handleCardClick(event) {
   }
 
   flippedCards = gameContainer.querySelectorAll('.flipped');
-  console.log(flippedCards);
   if(flippedCards.length == 2) {
     if(flippedCards[0].dataset.color === flippedCards[1].dataset.color) {
       for(card of flippedCards) {
